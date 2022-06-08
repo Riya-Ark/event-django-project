@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+ <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"> 
+<script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script> 
+        <style>
+            .carousel-inner img {
+    width: 100%;
+    height:700px;
+  }
+
+
+
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+/* Create four equal columns that sits next to each other */
+.column {
+  flex: 25%;
+  max-width: 33.3%;
+  padding: 0 4px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: AUTO;
+  filter: grayscale(1) brightness(0.5);
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s linear;
+}
+.column img:hover {
+  filter: grayscale(0);
+}
+@media screen and (max-width: 800px) {
+  .column {
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    flex: 100%;
+    max-width: 100%;
+  }
+  .column img {
+    filter: grayscale(0) brightness(1);
+  }
+}
+        </style>
+    </head>
+    <body>
+        <div id="demo" class="carousel slide" data-ride="carousel">
+
+ 
+            <ul class="carousel-indicators">
+              <li data-target="#demo" data-slide-to="0" class="active"></li>
+              <li data-target="#demo" data-slide-to="1"></li>
+              <li data-target="#demo" data-slide-to="2"></li>
+            </ul>
+            
+          
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="https://images.pexels.com/photos/2291367/pexels-photo-2291367.jpeg?cs=srgb&dl=pexels-naim-benjelloun-2291367.jpg&fm=jpg" alt="1" width="1100" height="250">
+          <div class="carousel-caption">
+                    
+                    
+                  </div>
+              </div>
+              <div class="carousel-item">
+                <img src="https://images.pexels.com/photos/1395964/pexels-photo-1395964.jpeg?cs=srgb&dl=pexels-mat-brown-1395964.jpg&fm=jpg" alt="2" width="1100" height="250">
+              </div>
+              <div class="carousel-item">
+                <img src="https://images.pexels.com/photos/671956/pexels-photo-671956.jpeg?cs=srgb&dl=pexels-pietro-jeng-671956.jpg&fm=jpg" alt="3" width="1100" height="250">
+              </div>
+            </div>
+            
+          
+            <a class="carousel-control-prev" href="#demo" data-slide="prev">
+              <span class="carousel-control-prev-icon"></span>
+            </a>
+            <a class="carousel-control-next" href="#demo" data-slide="next">
+              <span class="carousel-control-next-icon"></span>
+            </a>
+          </div>
+          </div>
+        <div class="container-fluid">
+            <div class="row">
+            <div class="col-sm-2" style="background-color:white;"></div>
+            <div class="col-sm-9" style="background-color:white;"><p style="font-size:30px"><h3 style="font-family:sanserif;"> <center>The Menu</center></h3></div>
+            <div class="col-sm-1" style="background-color:white;"></div>
+            </div>
+           
+            <div class="container-fluid">
+                <div class="row">
+                <div class="col-sm-4" style="background-color:white;">
+                    <h4> Appetizer</h4>
+                    <ul>
+                       <li>Pista Milk Shake</li>
+                       <li>Butter Scotch </li>
+                       <li>Fruit Punch</li>
+                       <li>Grape Punch</li>
+                       <li>Chichoo Shake</li>
+                       
+
+                    <div class="col-sm-4" style="background-color:white;">
+                    <h4> Short Eats</h4>
+                    <ul>
+                        <li>Cutlets</li>
+                        <li>Spring Rolls</li>
+                        <li> Momos</li>
+                        <li>Sausages</li>
+                        <li>Prawns Thamboora</li>
+                        
+                    
+                        </ul>
+                        
+                    </div>
+                <div class="col-sm-4" style="background-color:white;"> 
+                    <h4> Soup</h4>
+                    <ul>
+                    <li>Clear Soup</li>
+                    <li>Sweet Corn Veg. Soup</li>
+                    <li>Sweet Corn Veg. Soup</li>
+                    <li>Sweet Corn Veg. Soup</li>
+                    <li>Sweet Corn Chicken Soup</li>
+                    <li>Cream Of Tomato</li>
+                    
+                  </ul>
+                </div>
+                </div>
+                
+                <div class="row">
+                    <div class="col-sm-4" style="background-color:white;">
+                        <h4> Indian Bread
+        
+                        </h4>
+                        <ul>
+                           <li>Appam</li>
+                           <li>Pathiri </li>
+                           <li>Idiappam</li>
+                           <li>Romali Roti</li>
+                           <li>Paratha</li>
+                           
+    
+                        <div class="col-sm-4" style="background-color:white;">
+                        <h4> chicken</h4>
+                        <ul>
+                            
+                            <ul>
+                            <li>chicken 65</li>
+                            <li>chicken kadai</li>
+                            <li> chilli chicken</li>
+                            <li>Ginger chicken</li>
+                           <li>Butter chicken</li>
+                            
+                        
+                            </ul>
+                            
+                        </div>
+                    <div class="col-sm-4" style="background-color:white;"> 
+                        <h4> beef</h4>
+                        <ul>
+                        <li>beef fry</li>
+                        <li>beef piralan</li>
+                        <li>beef  roast</li>
+                        <li>beef vindalo</li>
+                        <li>beef curry</li>
+                        <li>beef with kaya</li>
+                        
+                      </ul></div>
+                    </div>
+                    </div>
+    </body>
+
+</html>
+
+
+
+
+
+<ul>
+    <li>Coffee</li>
+    <li>Tea</li>
+    <li>Milk</li>
+  </ul>
+  
+  
